@@ -1,0 +1,58 @@
+body{
+    background-color: darkseagreen;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+#background{
+    background-image: url('assets/background.png');
+    height: 800px;
+    width: 1200px;
+    border-radius: 10px;
+}
+
+#hero{
+    height: 800px;
+    width: 1200px;
+    position: absolute; 
+    border-radius: 10px; 
+}
+
+#the_hero{
+    background-image: url('assets/hero.png');
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    top: 700px;
+    left: 600px;
+}
+
+.enemy{
+    background-image: url('assets/enemy.png');
+    height: 50px;
+    width: 50px;
+    position: absolute;
+}
+
+#enemies{
+    height: 800px;
+    width: 1200px;
+    position: absolute; 
+    border-radius: 10px; 
+}
+
+#missiles{
+    height: 800px;
+    width: 1200px;
+    position: absolute;
+}
+
+.missile{
+    background-image: url('assets/missile1.png');
+    height: 16px;
+    width: 10px;
+    position: absolute;
+    border-radius: 10px;
+}
